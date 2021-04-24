@@ -1,0 +1,90 @@
+/* Exercício 1
+
+func divisores(num: Int) {
+  var div = 0
+  var cont = 1
+  while(cont <= num){
+    if(num % cont == 0) {
+      div += 1
+    }
+    cont += 1
+  }
+  print(div)
+}
+
+divisores(num: 3)*/
+
+
+/*Exercício 2
+
+func posNeg(num: Int) {
+  var result: Bool = false;
+  if(num >= 0) {
+    result =  true
+  }
+  print(result)
+}
+
+posNeg(num: -4)*/
+
+
+/*Exercício 3
+
+func resultMedia(mediaFinal: Double) {
+  var conceito: String = ""
+  switch mediaFinal {
+    case 0...4.9 :
+      conceito = "D"
+      break
+
+    case 5...6.9 :
+      conceito = "C"
+      break
+
+    case 7...8.9 :
+      conceito = "B"
+      break
+
+    case 9...10 :
+      conceito = "A"
+      break
+
+    default:
+      conceito = "Inválido"
+  }
+  print(conceito)
+}
+
+resultMedia(mediaFinal: 9.8)*/
+
+
+/*Exercício 4
+
+func calcArray() {
+  let arrayInteiros:[Int] = [2, 3, 26, 37, 38, 48, 60, 62, 75, 78]
+  let sum = arrayInteiros.reduce(0, +)
+  print(sum)
+}
+
+calcArray()*/
+
+
+/*Exercício 5
+
+func multiplicar(multiplicador: Int, array: Array<Int>) {
+  var i = 0
+  while (i <= array.count) {
+    array[i] *= multiplicador
+    i += 1
+  }
+  print(array)
+}
+
+multiplicar(multiplicador: 2, array: [2,3,4])*/
+
+
+/*Exercício 6
+
+Não consegui fazer :(
+
+*/
